@@ -12,3 +12,13 @@ def my_func(x, y):
 
 print(my_func(4, -5))
 
+
+def my_func_1(x, y):
+    a = 1
+    b = abs(y)
+    for number in range(b):
+        a /= x
+    return a
+
+
+print(my_func(4, -5))
